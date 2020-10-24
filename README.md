@@ -1,5 +1,5 @@
 # onsenUI
-Aplicación Básica de Cámara y Video en Onsen UI.
+Aplicación de API Básica con búsqueda en Onsen UI.
 Se utilizará HTML5 y .js 
 
 Descarga Node.js: https://nodejs.org/es/download/
