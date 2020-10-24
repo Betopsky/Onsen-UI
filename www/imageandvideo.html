@@ -1,0 +1,44 @@
+<ons-page>
+<div style="background-color: rgb(8, 226, 124);text-align: center;height: 100%;">
+    
+    <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button>
+            <i onclick="gallery()" class="zmdi zmdi-favorite" style="margin-top: 15px;"></i>
+          </ons-toolbar-button>
+        </div>
+  
+        <div style="text-align: center;" class="toolbar__center toolbar--material__center">
+          Cámara
+        </div>
+  
+        <div class="right">
+          <ons-toolbar-button>
+            <i onclick="galleryV()" class="zmdi zmdi-favorite" style="margin-top: 15px;"></i>
+          </ons-toolbar-button>
+        </div>
+      </ons-toolbar>
+
+      <div style="width: 100%;padding-top: 17%;height:80%;">
+            <div class="card"
+                style="height: 50%;background-color: lightcyan;width: 80%;margin: auto;border: 1px solid blanchedalmond;padding: 10px;">
+                <div id=pic style="text-align: center;">
+                    <button class="button button--material" onclick="takePicture()">Tomar Foto</button>
+                    <br><br>
+                    <div id="img"></div>
+                </div>
+            </div>
+            <div style="height: 4%;"></div>
+            <div class="card"
+                style="height: 53%;background-color: lightcyan;width: 80%;margin: auto;border: 1px solid blanchedalmond;padding: 10px;">
+                <div id="wea" style="text-align: center;">
+                    <button style="margin-bottom: 10%;" class="button button--material" onclick="takeVideo()">Tomar video</button>
+                    <div id="VIDEO"></div>
+                </div>
+            </div>
+
+        </div>
+    
+    </div>
+
+</ons-page>

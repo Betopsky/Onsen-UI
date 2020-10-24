@@ -1,0 +1,34 @@
+/**/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+  }
+  .center1 {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 80%;
+   
+  }
+  .theseparatorxd{
+      width: 80%;
+      height: 2px;
+      background-color: deepskyblue;
+      margin: auto;
+      width: 50%;
+      margin-top: 2px;
+      margin-bottom: 10px;
+  }
+  .listItem {
+    width: 100%;
+    height: 40px;
+    display: -webkit-flex;
+    -webkit-flex-direction:row;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+  }
